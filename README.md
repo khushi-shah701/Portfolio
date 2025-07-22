@@ -11,7 +11,7 @@ A responsive single-page portfolio website built with **HTML** and **CSS** to sh
 
 ## Live Demo
 
-[View Portfolio Live](https://github.com/khushi-shah701/Portfolio)
+[View Portfolio Live](http://127.0.0.1:5500/index.html)
 
 ## Contact
 
