@@ -13,25 +13,20 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
+  align: right;
+  padding: 10px;
+  justify-content: flex-end;
   background-color: #222;
   color: white;
-  position: sticky;
+  position: static;
   top: 0;
   z-index: 100;
-}
-
-.logo {
-  font-size: 24px;
-  font-weight: bold;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 50px;
 }
 
 .nav-links a {
@@ -41,18 +36,62 @@ body {
 }
 
 .nav-links a:hover {
-  color: #00bcd4;
+  color: skyblue;
 }
 
 .section {
   padding: 60px 20px;
-  text-align: center;
+  text-align: left;
+}
+
+.button{
+  text-align: right; 
+  margin-top: 2px;
+}
+
+.btn{
+      background: white;
+      color: #007acc;
+      padding: 5px 40px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      text-align: right;
+}
+
+.tag {
+  font-weight: 500;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: left;
+
 }
 
 .home {
-  background-color: #00bcd4;
+  background-color: skyblue;
   color: white;
 }
+
+section h1{
+  font-size: 28px;
+  color: #222;
+}
+
+section .skill{
+  list-style: none;
+      padding: 10;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap: 10px;
+}
+
+section .skill li{
+   background: #fff;
+      padding: 10px;
+      border-radius: 6px;
+      text-align: center;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+}
+
 
 .projects .project-card {
   margin: 20px auto;
@@ -70,7 +109,6 @@ footer {
   color: white;
 }
 
-/* Responsive */
 @media (max-width: 600px) {
   .nav-links {
     flex-direction: column;
